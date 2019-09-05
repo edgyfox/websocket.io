@@ -1,0 +1,44 @@
+.chat-content {
+    margin: 10px;
+    border: 1px solid green;
+}
+
+.chat-output {
+    height: 50%;
+    border-bottom: 1px solid green;
+    overflow-y: scroll;
+}
+
+.chat-output .flow-text {
+    margin: 0px 0px;
+    padding: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid green;
+}
+
+.chat-output p{
+    margin-top: 0px;
+    padding: 5px;
+}
+
+.chat-output #chat-handle {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+#chat-messages {
+    margin: 5px;
+}
+
+#chat-messages p {
+    border-bottom: 1px solid grey;
+}
+
+.chat-input{
+    padding: 5px;
+    margin: 5px;
+}
+
+#send-error{
+    margin-left: 5px;
+}

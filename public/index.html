@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Chat4U</title>
+</head>
+<body class="blue-grey lighten-1">
+    <div class="chat-content blue-grey lighten-4">
+        <div class="chat-output blue-grey lighten-5 responsive" id="output">
+            <p class="flow-text center blue-grey lighten-4">
+                CHAT4U
+            </p>
+            <div id="chat-messages"></div>
+            <p id="typing-message"></p>
+        </div>
+        <div class="chat-input">
+            <div>
+                <span id="chat-handle" class="right"></span>
+            </div>
+            <div class="input-field">
+                <input id="handle" type="text">
+                <label for="handle">your handle</label>
+            </div>
+            <div class="input-field">
+                <input id="message" type="text">
+                <label for="message">your message</label>
+            </div>
+            <a class="btn waves-effect waves-light blue-grey darken-2" id="send">
+                send
+                <i class="material-icons right">send</i>
+            </a>
+            <span class="blue-text" id="send-error"></span>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
